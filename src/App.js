@@ -56,6 +56,7 @@ class App extends Component {
     const { currentUser, prevUser, nextUser } = this.state;
     return (
       <div className="App" style={{ overflow: "hidden" }}>
+        Test test teset
         <SwipeBox
           handleSwipeLeft={this.handleSwipeLeft}
           handleSwipeRight={this.handleSwipeRight}
